@@ -66,11 +66,7 @@ public class StartedListener implements ApplicationListener<ApplicationStartedEv
         // Whether the blog has initialized
         Boolean isInstalled = optionService.getByPropertyOrDefault(PrimaryProperties.IS_INSTALLED, Boolean.class, false);
 
-        /*if (haloProperties.isProductionEnv() && isInstalled) {
-            // Skip
-            return;
-        }*/
-
+        
         try {
             String themeClassPath = ResourceUtils.CLASSPATH_URL_PREFIX + ThemeService.THEME_FOLDER;
 
@@ -104,3 +100,4 @@ public class StartedListener implements ApplicationListener<ApplicationStartedEv
     }
 
 }
+
