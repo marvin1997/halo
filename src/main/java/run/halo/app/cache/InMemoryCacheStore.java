@@ -22,7 +22,7 @@ public class InMemoryCacheStore extends StringCacheStore {
     /**
      * Cleaner schedule period. (ms)
      */
-    private final static long PERIOD = 60 * 1000;
+    private static final long PERIOD = 60 * 1000;
 
     /**
      * Cache container.
@@ -118,3 +118,4 @@ public class InMemoryCacheStore extends StringCacheStore {
         }
     }
 }
+
