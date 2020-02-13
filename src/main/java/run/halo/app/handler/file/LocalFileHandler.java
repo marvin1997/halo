@@ -53,7 +53,7 @@ public class LocalFileHandler implements FileHandler {
     /**
      * Thumbnail height.
      */
-    private final static int THUMB_HEIGHT = 256;
+    private static final int THUMB_HEIGHT = 256;
 
     ReentrantLock lock = new ReentrantLock();
 
@@ -240,3 +240,4 @@ public class LocalFileHandler implements FileHandler {
     }
 
 }
+
