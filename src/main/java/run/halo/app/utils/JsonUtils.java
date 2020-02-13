@@ -118,8 +118,6 @@ public class JsonUtils {
 //    public static <T> T inputStreamToObject(@NonNull InputStream inputStream, @NonNull Class<T> type, @NonNull ObjectMapper objectMapper) throws IOException {
 //        Assert.notNull(inputStream, "Input stream must not be null");
 //
-//        String json = IOUtils.toString(inputStream);
-//        return jsonToObject(json, type, objectMapper);
 //    }
 
     /**
@@ -216,3 +214,4 @@ public class JsonUtils {
     }
 
 }
+
