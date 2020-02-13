@@ -40,7 +40,7 @@ import java.security.NoSuchAlgorithmException;
 @Slf4j
 public class HaloConfiguration {
 
-    private final static int TIMEOUT = 5000;
+    private static final int TIMEOUT = 5000;
 
     @Bean
     public ObjectMapper objectMapper(Jackson2ObjectMapperBuilder builder) {
@@ -166,3 +166,4 @@ public class HaloConfiguration {
         return authenticationFilter;
     }
 }
+
