@@ -48,7 +48,7 @@ public class LocalFileHandler implements FileHandler {
     /**
      * Thumbnail width.
      */
-    private final static int THUMB_WIDTH = 256;
+    private static final int THUMB_WIDTH = 256;
 
     /**
      * Thumbnail height.
@@ -240,3 +240,4 @@ public class LocalFileHandler implements FileHandler {
     }
 
 }
+
